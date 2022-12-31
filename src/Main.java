@@ -14,8 +14,7 @@ public class Main {
 /*------------------------------------ Declaração de variáveis (globais). ------------------------------------*/
 
         // Opções do menu de opções
-        String [] options = {"Rodar casos de teste",
-                "Inserir caso de teste", "Sair"};
+        String [] options = {"Executar casos predefinidos", "Inserir caso de teste", "Sair" };
         boolean isRunning = true; // Variável para manter o programa rodando em loop até que seja fechado pelo usuário.
 
         while(isRunning){
@@ -51,11 +50,8 @@ public class Main {
 /*============================ Criação de função para processamento da entrada. =============================*/
 
     /*A função abaixo realiza a separação do endereço de entrada fornecido, aplicando alguns procedimentos
-    * simples de normalização dos dados. A função consegue realizar a separação desde endereços mais simples
-    * (Um nome e numeral da rua), passando pelos mais complexos (Múltiplos nomes e numeral da rua com complemento)
-    * até alguns padrões de endereços internacionais (Nomes de ruas envolvendo numerais, número da rua inserido
-    * antes do nome e mesmo números da rua com algum prefixo). Requer como argumento uma string contendo o ende-
-    * reço completo (ou seja, concatenado) com o nome e número da rua, retornando um Array de string com o nome
+    * simples de normalização dos dados no processo. Requer como argumento uma string contendo o endereço
+    * completo (ou seja, concatenado) com o nome e número da rua, retornando um array de string com o nome
     * e o número da rua separados.*/
     public static String[] separadorEndereco(String endereco_entrada){
 
