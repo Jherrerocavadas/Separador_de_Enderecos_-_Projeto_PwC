@@ -22,9 +22,7 @@ Observação: Nem todos os recursos podem estar implementados e/ou funcionando c
 * [Funcionalidades](#funcionalidades)
 * [Demonstração](#demonstracao)
 * [Pré Requisitos](#pre-requisitos)
-    * [Hardware](#hardware)
     * [Software](#software)
-    * [Outros](#outros)
 * [Sobre o código](#sobre-o-código)
 * [Tecnologias](#tecnologias)
 * [Autor](#autor)
@@ -55,6 +53,7 @@ O código contém um menu simples elaborado com os elementos do JOptionPane e qu
 - a função `inserirCaso`: Ela gera uma tela que permite que o usuário insira o endereço completo manualmente, realizando a separação e exibição do resultado posteriormente.
 
 Ambas as funções redirecionam novamente o fluxo para uma terceira função, a `separadorEndereco`, que fica responsável pela aplicação do procedimento de normalização dos dados, separação de todos os elementos (palavras, números e ocasionais letras de complemento) do endereço, reorganizando-os de acordo com alguns critérios (vide "[Funcionalidades](#Funcionalidades)") e retornando o resultado em um array de strings para utilização pelas funções `casosTeste` e `inserirCaso`.
+
 Observação: A função consegue realizar a separação desde endereços mais simples (Um nome e numeral da rua), passando pelos mais complexos (Múltiplos nomes e numeral da rua com complemento) até alguns padrões de endereços internacionais (Nomes de ruas envolvendo numerais, número da rua inserido antes do nome e mesmo números da rua com algum prefixo).
 
 # Tecnologias
