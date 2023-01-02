@@ -41,7 +41,7 @@ Observação: Nem todos os recursos podem estar implementados e/ou funcionando c
 - [x] Normalização de endereços (Remoção de vírgulas do endereço de entrada)
 
 # Demonstração
-A inserir
+![Video demonstrativo](README_Files/Funcionamento_Separador_enderecos.gif)
 
 # Pré Requisitos
 
